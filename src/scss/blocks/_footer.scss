@@ -1,0 +1,123 @@
+.footer {
+    
+    padding-top:60px;
+    padding-bottom: 85px;
+    padding-right: 121px;
+    padding-left:181px;
+
+    &__content {
+        display: flex;
+        
+        margin-bottom:98px;
+    }
+
+    &__bottom {
+        display: flex;
+        
+    }
+
+    &__links {
+        display: flex;
+        width:70%;
+        margin-right: 10px;
+
+        &--title {
+            font-weight: $bold;
+            font-size: 20px;
+            line-height:28px;
+            margin-bottom:20px;
+        }
+
+        &--item {
+            display: flex;
+            flex-direction: column;
+           
+            margin-right: 93px;
+
+            &:nth-child(2) {
+                margin-right: 55px;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &--text {
+            margin-bottom: 10px;
+            font-size: 20px;
+            line-height: 28px;
+            color: $greyBlack;
+
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+
+    }
+
+    &__contacts {
+        width: 383px;
+        font-size: 20px;
+        line-height:28px;
+    }
+
+    &__phones {
+        margin-bottom: 10px;
+        color: $greyBlack;
+        font-weight: $bold;
+    }
+
+    &__email {
+        margin-bottom: 10px;
+    }
+
+    &__adress {
+        position: relative;
+        max-width: 100%;
+        &::after {
+            content: url('../img/chain.svg');
+            position: absolute;
+            top: 58px;
+            right: 68px;
+            cursor: pointer;
+        }
+    }
+
+    &__license {
+        display: flex;
+        align-items: center;
+        color: $greyBlack;
+        font-size: 18px;
+        line-height: 25px;
+        width: 70%;
+        margin-right: 10px;
+
+        &--img {
+           display: inline-block; 
+           margin-right: 7px;
+        }
+
+        &--date {
+            margin-right:6px;
+        }
+    }
+
+    &__socials {
+        display: flex;
+        align-items: center;
+        width: 25%;
+
+        &--item {
+            margin-right: 30px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

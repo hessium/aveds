@@ -1,0 +1,37 @@
+.burger {
+    display:none;
+    z-index: 1;
+    width: 545px;
+    position: fixed;
+    left: 0;
+    top: 165px;
+    background:#E2E2E2;
+    font-size: 22px;
+    line-height:28px;
+    height: 851px;
+    padding:41px 0 63px 39px;
+
+    &__item {
+        padding:16px 32px 21px;
+        cursor: pointer;
+        font-size: 22px;
+        line-height:27px;
+        font-weight: $semi-medium;
+        
+        &:hover {
+            color: $violet;
+            background:$white;
+            border-right: 3px solid $violet;
+            border-radius: 5px 0 0 5px;
+            
+        }
+
+        &:hover.burger-menu {
+            display:block;
+        }
+    }
+}
+
+.burger.active {
+    display:block;
+}

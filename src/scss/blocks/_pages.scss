@@ -1,0 +1,27 @@
+.pages{
+   
+    &__list{
+        display:flex;
+        align-items: center;
+        justify-content:flex-start;
+    }
+
+    &__item {
+        margin-right: 11px;
+        color: $grey;
+        position: relative;
+        
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &--link{
+            display: flex;
+        }
+
+        &--icon{
+            margin-left:11px;
+        }
+    }
+}

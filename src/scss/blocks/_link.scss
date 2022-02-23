@@ -1,0 +1,23 @@
+.link {
+    &__orders {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 33px;
+        font-size: 14px;
+        line-height:17px ;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:nth-child(3){
+            margin-top: 4px;
+            margin-right: 29px;
+        }
+    }
+
+    &__icon{
+        margin-bottom: 5px;
+    }
+}

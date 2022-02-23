@@ -1,0 +1,16 @@
+.phones {
+    display: flex;
+    flex-shrink: 0;
+    &__number{
+        margin-right: 75px;
+
+        &:last-child{
+            margin-right:0;
+        }
+    
+        &--footer {
+            margin-right:6px;
+        }
+    }
+
+}

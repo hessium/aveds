@@ -1,0 +1,59 @@
+.subscribe{
+    
+    background: $whiteBlue;
+    display: flex;
+    align-items: center;
+  
+    height: 149px;
+
+    &__title {
+        width:  425px;
+        margin-bottom:0;
+        font-size: 26px;
+        line-height:36px;
+        margin-right: 36px;
+        font-weight: $medium;
+    }
+
+    &__picture {
+        margin-right: 36px;
+    }
+
+    &__form {
+        position: relative;
+        width: 910px;
+        padding-top: 5px;
+    }
+
+    &__input {
+        width: 100%;
+        height: 54px;
+        padding-top: 2px;
+        padding-left: 17px;
+        font-size: 18px;
+        line-height:25px;
+        border: 2px solid transparent;
+        border-radius: 6px;
+        outline: none;
+        background: $white;
+        color: grey;
+    }
+
+    &__button {
+        position: absolute; 
+        top: 7px;
+        right: 0px;
+        width: 219px;
+        height: 54px;
+        border: none;
+        background: $violet;
+        border-radius:  5px;
+        cursor: pointer;
+
+        &:before {
+            content: "Подписаться";
+            font-size: 18px;
+            color: $white;
+          }
+    }
+}

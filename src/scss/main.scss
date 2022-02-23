@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import "base";
+@import "variables";
+@import 'mixins';
+@import "./blocks/header";
+@import "./blocks/location";
+@import "./blocks/phones";
+@import "./blocks/btn";
+@import "./blocks/search";
+@import "./blocks/hero";
+@import "./blocks/links";
+@import "./blocks/pages";
+@import "./blocks/link";
+
+@import "./blocks/swiper";
+@import "./blocks/colors";
+@import "./blocks/description";
+@import "./blocks/price";
+@import "./blocks/delivery";
+@import "./blocks/subscribe";
+@import "./blocks/product";
+@import "./blocks/footer";
+
+@import "./blocks/burger";
+@import "./blocks/burger-menu";

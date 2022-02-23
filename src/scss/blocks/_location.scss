@@ -1,0 +1,19 @@
+
+.location {
+    display: flex;
+    margin-right: 104px;
+  
+    &__icon {
+      width: 13px;
+      height: 16px;
+      margin-right: 17px;
+    }
+
+    &__text {
+      font-size: 16px;
+      line-height:19px;
+      font-weight: $medium;
+      font-style: normal;
+      margin-left:4px;
+    }
+  }

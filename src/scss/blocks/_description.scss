@@ -1,0 +1,48 @@
+.description {
+
+    &__item{
+        display: flex;
+        margin-bottom: 15px;
+        width: 100%;
+        flex-wrap: wrap;
+
+
+       
+        &:last-child {
+            margin-bottom:0;
+        }
+
+        &--text {
+            min-width: 52%;
+            position: relative;
+            padding-right: 5px;
+
+            &::before {
+                border-bottom: 1px solid $grey;
+                bottom: 5px;
+                content: "";
+                display: block;
+                left: 0;
+                position: absolute;
+                width: 100%;
+                
+            }
+        }
+
+        &--title {          
+            align-items: flex-start;
+            background: #fff;
+            display: inline;
+            padding-right: 10px;
+            position: relative;
+            color: $grey;
+        }
+
+
+        &--params{
+            width: 43%;
+            padding-left: 10px;
+        }
+    }
+}
+
