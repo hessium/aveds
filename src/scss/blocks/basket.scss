@@ -1,0 +1,16 @@
+.basket {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    display:none;
+    width: 450px;
+    height:350px;
+    border: 2px solid $violet;
+    border-radius:6px;
+    background-color:$white;
+    padding:35px;
+
+    &.active {
+        display: flex;
+    }
+}

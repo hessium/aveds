@@ -9,11 +9,24 @@
       margin-right: 17px;
     }
 
-    &__text {
+    &__select {
       font-size: 16px;
       line-height:19px;
       font-weight: $medium;
       font-style: normal;
       margin-left:4px;
+      appearance: none;
+      background-color:$black;
+      -webkit-appearance: none;/* Chrome */
+      -moz-appearance: none;/* Firefox */
+      appearance: none;
+      color:$white;
+      border: none;
+      cursor: pointer;
+      
+      &:focus-visible {
+       outline:transparent;
+      }
+      
     }
   }

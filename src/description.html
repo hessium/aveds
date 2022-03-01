@@ -16,9 +16,14 @@
                             <div class="location__icon">
                                 <img src="img/location.png" alt="icon" class="location__img">
                             </div>
-                            <div class="location__text">
-                                Москва
-                            </div>
+                            <select class="location__select" name="selectcheck" onchange="SaveSelectValue(this)">
+                              <option value="Москва" class="location__option">Москва</option>
+                              <option value="Казань" class="location__option">Казань</option>
+                              <option value="Санкт-Петербург" class="location__option">Санкт-Петербург</option>
+                              <option value="Екатеринбург" class="location__option">Екатеринбург</option>
+                              <option value="Владиволсток" class="location__option">Владиволсток</option> 
+                              <option value="Самара" class="location__option">Самара</option> 
+                           </select>    
                         </div>
                         <div class="header__delivary delivary">
                             <div class="delivary__text">
@@ -520,7 +525,9 @@
                   </li>
                 </ul>
               </div>
-             
+              <div class="basket">
+                
+              </div>
         </div>
     </div>  
 

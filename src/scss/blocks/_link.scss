@@ -20,4 +20,24 @@
     &__icon{
         margin-bottom: 5px;
     }
+
+    &__basket{
+        position: relative;
+        &.active {
+
+        &:after {
+            content:"";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-radius:50%;
+            background-color: $red;
+        }
+      
+    }}
 }
