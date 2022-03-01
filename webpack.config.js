@@ -19,14 +19,14 @@ module.exports = {
       },
     output: {
         filename: `./js/${filename('js')}`,
-        path: path.resolve(__dirname, 'app'),
+        path: path.resolve(__dirname, 'docs'),
         publicPath: '',
         assetModuleFilename: 'img/[name].[ext]'
     },
     devServer: {
         historyApiFallback: true,
         static: {
-            directory: path.resolve(__dirname, 'app')},
+            directory: path.resolve(__dirname, 'docs')},
         open: true,
         hot: true,
         compress: true,
@@ -56,7 +56,7 @@ module.exports = {
         }),
         new CopyWebpackPlugin({
             patterns: [
-                {from: path.resolve(__dirname, 'src/assets'), to:path.resolve(__dirname, 'app')}
+                {from: path.resolve(__dirname, 'src/assets'), to:path.resolve(__dirname, 'docs')}
             ]
         }),
         
